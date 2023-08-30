@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import TeamMember from "./TeamMember";
+import propic from "../../../Images/propic.jpeg";
 
 const TeamWrapper = styled.div`padding: 40px 0;
 display: flex;
@@ -54,15 +55,15 @@ const TeamContainer = styled.div`
 
 const Team = () => {
   const member = [{
-    photo: "https://avatars.githubusercontent.com/u/64485885?v=4",
-    name: "Rishav Chanda",
+    photo: propic,
+    name: "Aayush Kumar",
     title: "Full-Stack Developer",
     bio: "I have expertise in full-stack web development, Android app development, and MERN stack development. I am knowledgeable in various programming languages, frameworks, and technologies and strive to create high-quality, user-friendly applications."
   }]
   return (
     <TeamWrapper id="team">
       <Title>Meet the crew</Title>
-      <Description>We're a small, remote team working on interesting problems at the edge of compute.</Description>
+      <Description>We're a small, remote team working on interesting problems one step at a time.</Description>
       <TeamContainer>
         {member.map((member, index) => (
           <TeamMember key={index} photo={member.photo} name={member.name} title={member.title} bio={member.bio} />
