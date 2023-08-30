@@ -1,5 +1,5 @@
-# Vexa Project
-Welcome to Vexa - a project management app designed to help you manage your projects more efficiently.
+# Orject Management App
+a project management app designed to help you manage your projects more efficiently.
 
 ## Features
 - Project management
