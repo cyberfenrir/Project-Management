@@ -1,4 +1,4 @@
-# Orject Management App
+# Project Management App
 a project management app designed to help you manage your projects more efficiently.
 
 ## Features
